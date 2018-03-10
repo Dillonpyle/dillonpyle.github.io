@@ -18,7 +18,7 @@
      "random":true,
      "anim":{
        "enable":true,
-       "speed":1
+       "speed":10
      }
    },
    "size":{
@@ -52,7 +52,7 @@
    },
    "modes":{
      "repulse":{
-       "distance":30,
+       "distance":40,
        "duration":0.4
      }
    }
