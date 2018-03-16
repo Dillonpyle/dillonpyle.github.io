@@ -1,0 +1,70 @@
+body, html{
+  height:100%;
+  margin:0;
+  font-size: 16px;
+  font-family: "indie flower", cursive;
+  line-height: 1.8em;
+  color: #666;
+}
+.pimg1, .pimg2, .pimg3, .pimg4, .pimg5{
+  position:relative;
+  opacity: 0.70;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+
+.pimg1{
+  background-image: url('https://images.pexels.com/photos/6057/nature-water-garden-trees.jpg?w=940&h=650&auto=compress&cs=tinysrgb');
+  min-height:100%;
+  opacity: 1.0;
+}
+.pimg2{
+  background-image: url('https://elementsmassage.com/files/frontend/cropped/Hot-Stone-Massage.jpg');
+  min-height:400px;
+}
+.pimg3{
+  background-image: url('https://images.pexels.com/photos/261055/pexels-photo-261055.jpeg?w=940&h=650&auto=compress&cs=tinysrgb');
+  min-height: 400px;
+}
+.pimg4{
+  background-image: url('http://www.wellbeingphd.com/wp-content/uploads/2017/05/Kundalinibanner.png');
+  min-height: 400px;
+}
+.pimg5{
+  background-image: url('https://www.google.com/maps/vt/data=C4BJIOn1r8_iv0mgG1S1uQ0HCHtJc0A2MpyCHBGLI9GTKCcinZSTbKIvtu0jTRa_OcpjWfBm1CDfoY0QG3U8feM8FtAaAl8vStNcoDmSmRiwTJ37QcI3wLByS4gTT0Mit9kvBZTg6CKg7_tagdPpHz6G4ZnQWIfdOjaAX47DNg5Y8qKFCODjHbQFAd-hS0a9Ic9aunpb8R1g652MtzOx4DjQI9Mp612WvM1VqdA5tJkJaIRhWtli6huRyWG5gf3sO8jftwkpc-BIC6DFw-ONZ4XqSQ2avCDprTfRv5WoRP28sGbfhaQIH2g');
+  min-height: 600px;
+}
+.section{
+  text-align: center;
+  padding: 50px 80px;
+}
+.sectioon-light{
+  background-color: #f4f4f4;
+  color: #666;
+}
+.section-dark{
+  background-color: #282e34;
+  color: #ddd;
+}
+.ptext{
+  position: absolute;
+  top: 50%;
+  width:100%;
+  text-align: center;
+  color: #000;
+  font-size:27px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+
+.ptext .border{
+  background-color: #111;
+  color: #fff;
+  padding: 20px;
+}
+.ptext .border .trans{
+  background-color: transparent;
+}
